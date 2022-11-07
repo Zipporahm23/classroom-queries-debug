@@ -23,18 +23,18 @@
         </th>
       </tr>
 
-      <% @list_of_department.each do |department| %>
+      <% @list_of_departments.each do |departments| %>
       <tr>
         <td>
-          <%= department.id %>
+          <%= departments.id %>
         </td>
 
         <td>
-          <%= department.name %>
+          <%= departments.name %>
         </td>
 
         <td>
-          <a href="/departments/<%= department.id %>">
+          <a href="/departments/<%= departments.id %>">
             Show details
           </a>
         </td>
